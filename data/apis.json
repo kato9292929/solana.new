@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "japan-weather",
+    "name": "Japan Weather API",
+    "name_ja": "日本天気API",
+    "description": "Current weather data for major Japanese cities — Tokyo, Osaka, Sapporo, Fukuoka. Returns temperature, humidity, wind speed, and sky conditions in both English and Japanese.",
+    "price_usdc": 0.007,
+    "price_micro_usdc": 7000,
+    "category": "weather-japan",
+    "provider": "WeatherJP Labs",
+    "icon": "🌤",
+    "tags": ["weather", "japan", "real-time"]
+  },
+  {
+    "slug": "tokyo-stocks",
+    "name": "Tokyo Stock Price Feed",
+    "name_ja": "東京株価フィード",
+    "description": "Real-time Nikkei 225 index value plus per-ticker prices for top Japanese equities. Includes intraday change and volume data.",
+    "price_usdc": 0.01,
+    "price_micro_usdc": 10000,
+    "category": "market-data",
+    "provider": "TDX Market Data",
+    "icon": "📈",
+    "tags": ["stocks", "nikkei", "japan", "finance"]
+  },
+  {
+    "slug": "translate-ja",
+    "name": "JP→EN Translation",
+    "name_ja": "日英翻訳API",
+    "description": "High-quality Japanese-to-English translation optimised for technical and business text. Returns translation confidence score.",
+    "price_usdc": 0.005,
+    "price_micro_usdc": 5000,
+    "category": "translation-ja",
+    "provider": "LinguaAPI Japan",
+    "icon": "🈳",
+    "tags": ["translation", "nlp", "japanese"]
+  },
+  {
+    "slug": "solana-defi-rates",
+    "name": "Solana DeFi Rates",
+    "name_ja": "Solana DeFiレート",
+    "description": "Current lending and borrowing rates across major Solana DeFi protocols: Kamino, Drift, Marinade, and more. APY and TVL included.",
+    "price_usdc": 0.003,
+    "price_micro_usdc": 3000,
+    "category": "market-data",
+    "provider": "Solana Analytics",
+    "icon": "⚡",
+    "tags": ["defi", "solana", "rates", "yield"]
+  },
+  {
+    "slug": "apac-news",
+    "name": "APAC Crypto News Feed",
+    "name_ja": "APACニュースフィード",
+    "description": "Latest crypto and fintech news sourced from Asia-Pacific media: Nikkei, CoinDesk Asia, The Block Asia. Returns top 5 articles per call.",
+    "price_usdc": 0.01,
+    "price_micro_usdc": 10000,
+    "category": "market-data",
+    "provider": "APACNews.io",
+    "icon": "📰",
+    "tags": ["news", "crypto", "asia", "fintech"]
+  }
+]

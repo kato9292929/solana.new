@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --bg:        #0a0a0a;
+  --accent:    #00ff88;
+  --amber:     #f59e0b;
+  --border:    rgba(255,255,255,0.08);
+  --muted:     rgba(255,255,255,0.30);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html,
+body {
+  background-color: #0a0a0a;
+  color: rgba(255,255,255,0.85);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Wallet adapter modal — dark theme override */
+.wallet-adapter-modal-wrapper {
+  background: #111 !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+}
+.wallet-adapter-modal-title {
+  color: #fff !important;
+}
+.wallet-adapter-button {
+  font-family: monospace !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar              { width: 4px; height: 4px; }
+::-webkit-scrollbar-track        { background: transparent; }
+::-webkit-scrollbar-thumb        { background: rgba(255,255,255,0.15); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover  { background: rgba(255,255,255,0.25); }
